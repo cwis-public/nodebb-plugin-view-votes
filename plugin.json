@@ -1,0 +1,15 @@
+{
+    "id": "nodebb-plugin-view-votes",
+    "name": "Allow everyone to view up votes and down votes",
+    "description": "Allows everyone to view up votes and down votes",
+    "url": "https://github.com/cwis-public/nodebb-plugin-view-votes",
+    "library": "./index.js",
+    "less": [],
+    "hooks": [{
+        "hook": "static:app.load",
+        "method": "init"
+    }],
+    "css": [],
+    "scripts": [],
+    "acpScripts": []
+}

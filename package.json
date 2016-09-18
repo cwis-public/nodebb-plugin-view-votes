@@ -1,0 +1,25 @@
+{
+  "name": "nodebb-plugin-view-votes",
+  "version": "1.0.0",
+  "description": "Allow everyone to view down votes and up votes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwis-public/nodebb-plugin-view-votes.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cwis-public/nodebb-plugin-view-votes/issues"
+  },
+  "homepage": "https://github.com/cwis-public/nodebb-plugin-view-votes",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "dependencies": {
+    "async": "^2.0.1"
+  }
+}
